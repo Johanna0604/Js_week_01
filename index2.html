@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>introduccion a js</h1>
+    <h2>Enviar mensaje difrente por cada dia de la semana</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minima doloribus veniam eveniet eius mollitia odit facilis tempora perspiciatis eligendi ex sit iure obcaecati saepe a ipsum explicabo vero, iste, magni velit dolor. Rem eaque blanditiis, quod sed ab ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium iusto quis maiores nesciunt. Cupiditate ex, eius qui repudiandae maiores vel commodi reiciendis sit ipsam, corporis ab quis nemo praesentium? Molestiae voluptas doloribus, ipsum nihil repellat accusantium sint reiciendis animi eveniet saepe quasi eos laudantium similique earum aperiam temporibus explicabo? Neque?</p>
+    
+    <script>
+        //mensajes por cada dia de la semana 
+        { 
+        }
+
+        var a = new Date(); // obtener fecha y hora del sistema 
+        var dia = a.getDay();//devuelve el numero del dia de la semana; 1: lunes, 2: martes...
+        //getDate() devuelve numero del dia, ejemplo 21
+        switch(dia){
+            case 1: document.write("<center>Mensaje del lunes"); break;
+            case 2: document.write("<center>Mensaje del martes"); break;
+            case 3: document.write("<center>Mensaje del miercoles"); break;
+            case 4: document.write("<center>Mensaje del jueves"); break;
+            case 5: document.write("<center>Mensaje del viernes"); break;
+            case 6: document.write("<center>Mensaje del sabado"); break;
+            case 7: document.write("<center>Mensaje del domingo"); break;
+        }
+
+
+
+
+    </script>
+
+</body>
+</html>
